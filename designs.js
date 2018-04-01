@@ -8,4 +8,4 @@ $('#submit').on("click", function(){
   console.log("yay");
   //$('#submit').remove();         
 // Your code goes here!
-)};
+});
