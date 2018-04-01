@@ -4,8 +4,8 @@
 // When size is submitted by the user, call makeGrid()
 
 function makeGrid() {
-$('.submit').click(remove()
-                   
+$('.submit').on('click', function(){
+  $('.submit').remove();         
 // Your code goes here!
 
-};
+)};
