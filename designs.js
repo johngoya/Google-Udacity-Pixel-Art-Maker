@@ -5,7 +5,7 @@
 
 function makeGrid() {
 $('#sizePicker').on("click", function(){
-  $('#submit').remove();         
+  //$('#submit').remove();         
 // Your code goes here!
 
 )};
