@@ -4,7 +4,9 @@
 // When size is submitted by the user, call makeGrid()
 
 function makeGrid() {
-$('#submit').on("click", function(){
+$('#submit').click(function(event) {
+  event.preventDefault();
+}.on("click", function(){
   console.log("yay");
   $('#submit').remove();         
 // Your code goes here!
