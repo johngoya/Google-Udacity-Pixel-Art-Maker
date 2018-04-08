@@ -8,6 +8,6 @@ $('#submit').click(function(event) {
   event.preventDefault();
 }.on("click", function(){
   console.log("yay");
-  $('#submit').remove();         
+  //$('#submit').remove();         
 // Your code goes here!
 })};
